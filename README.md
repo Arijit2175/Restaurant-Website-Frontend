@@ -77,3 +77,13 @@ This frontend was deployed in vercel, you can check the live version here:
 
 ---
 
+## ⚙️ Application Behavior
+
+- **Navigation**: Hamburger menu on mobile, sticky header on scroll, and active‑link highlighting based on section visibility.
+- **Scroll UX**: Scroll-to-top button appears after scrolling; header shadow improves readability.
+- **Theming**: Light/dark theme toggle with preference stored in `localStorage`; hero and app images update accordingly.
+- **Animations**: ScrollReveal animates hero, about, services, specials, app, contact, and footer sections.
+- **Menu & Specials**: Cards link to dedicated item pages (salads, burgers, sandwiches, drinks, sides) located in `public/`.
+
+---
+
