@@ -87,3 +87,13 @@ This frontend was deployed in vercel, you can check the live version here:
 
 ---
 
+## 🚀 Future Scope
+
+- Add menu search, filters, and dietary tags for easier navigation.
+- Integrate reservation or online ordering APIs.
+- Add localization support (language and currency).
+- Improve accessibility (ARIA labels, focus states, color contrast checks).
+- Introduce performance budgets and automated Lighthouse CI checks.
+
+---
+
