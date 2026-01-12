@@ -66,7 +66,7 @@ Restaurant-Website-Frontend/
 - Contact call‑to‑action and footer with quick links
 
 ### Preview
-![Preview](assets/img/preview.png)
+![Preview](public/assets/img/preview.png)
 
 ---
 
@@ -109,4 +109,6 @@ This frontend was deployed in vercel, you can check the live version here:
 - W3Schools – Responsive Design: [https://www.w3schools.com/css/css_rwd_intro.asp](https://www.w3schools.com/css/css_rwd_intro.asp)
 - Can I use (Browser Compatibility): [https://caniuse.com/](https://caniuse.com/)
 
+<br>
 
+**Developed by** - @Arijit2175
