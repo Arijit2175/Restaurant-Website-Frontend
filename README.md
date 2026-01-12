@@ -111,4 +111,4 @@ This frontend was deployed in vercel, you can check the live version here:
 
 <br>
 
-**Developed by** - @Arijit2175
+👨‍💻 **Developed by** - @Arijit2175
