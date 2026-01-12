@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Salad with Fish</title>
+    <link rel="stylesheet" href="assets/css/salad.css">
+</head>
+
+<body>
+    <div class="menu__container">
+        <div class="menu__content">
+            <img src="assets/img/plate2.png" alt="Salad with Fish" class="menu__img">
+            <h2 class="menu__name">Salad with Fish</h2>
+            <p class="menu__detail">Fresh greens topped with perfectly grilled fish, crisp vegetables,
+                and a zesty dressing—a refreshing and nutritious option for a satisfying meal.</p>
+            <p class="menu__preci">$8.00</p>
+            <a href="menu.html" class="menu__button">Back to Menu</a>
+        </div>
+    </div>
+    <div class="body-background"></div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const menuContainer = document.querySelector('.menu__container');
+            const menuImage = document.querySelector('.menu__img');
+
+            setTimeout(() => {
+                menuContainer.style.opacity = '1';
+                menuContainer.style.transform = 'translateY(0) scale(1)';
+            }, 200);
+
+            setTimeout(() => {
+                menuImage.style.opacity = '1';
+                menuImage.style.transform = 'translateX(0) rotate(0)';
+            }, 700);
+        });
+    </script>
+</body>
+
+</html>

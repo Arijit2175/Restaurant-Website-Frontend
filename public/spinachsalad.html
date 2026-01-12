@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Spinach Salad</title>
+    <link rel="stylesheet" href="assets/css/salad.css">
+</head>
+
+<body>
+    <div class="menu__container">
+        <div class="menu__content">
+            <img src="assets/img/plate3.png" alt="Spinach Salad" class="menu__img">
+            <h2 class="menu__name">Spinach Salad</h2>
+            <p class="menu__detail">Fresh spinach leaves tossed with crisp vegetables, savory toppings,
+                and a light, flavorful dressing—a nutritious and delicious choice for a wholesome meal.</p>
+            <p class="menu__preci">$6.00</p>
+            <a href="menu.html" class="menu__button">Back to Menu</a>
+        </div>
+    </div>
+    <div class="body-background"></div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const menuContainer = document.querySelector('.menu__container');
+            const menuImage = document.querySelector('.menu__img');
+
+            setTimeout(() => {
+                menuContainer.style.opacity = '1';
+                menuContainer.style.transform = 'translateY(0) scale(1)';
+            }, 200);
+
+            setTimeout(() => {
+                menuImage.style.opacity = '1';
+                menuImage.style.transform = 'translateX(0) rotate(0)';
+            }, 700);
+        });
+    </script>
+</body>
+
+</html>

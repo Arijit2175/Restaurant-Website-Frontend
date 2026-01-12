@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Chicken Nuggets</title>
+    <link rel="stylesheet" href="assets/css/sides.css">
+</head>
+
+<body>
+    <div class="menu__container">
+        <div class="menu__content">
+            <img src="assets/img/chickennuggets.png" alt="Chicken Nuggets" class="menu__img">
+            <h2 class="menu__name">Chicken Nuggets</h2>
+            <p class="menu__detail">Crispy, golden, and tender bites of chicken—perfectly seasoned for a satisfying
+                snack or meal.</p>
+            <p class="menu__detail">Dips provided: Ketchup, Mustard and Mayonaise
+                No extra Cost</p>
+            <p class="menu__preci">Spiced up - $5.99</p>
+            <p class="menu__preci">Non-Spicy - $3.99</p>
+            <a href="menu.html" class="menu__button">Back to Menu</a>
+        </div>
+    </div>
+    <div class="body-background"></div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const menuContainer = document.querySelector('.menu__container');
+            const menuImage = document.querySelector('.menu__img');
+
+            setTimeout(() => {
+                menuContainer.style.opacity = '1';
+                menuContainer.style.transform = 'translateY(0) scale(1)';
+            }, 200);
+
+            setTimeout(() => {
+                menuImage.style.opacity = '1';
+                menuImage.style.transform = 'translateX(0) rotate(0)';
+            }, 700);
+        });
+    </script>
+</body>
+
+</html>

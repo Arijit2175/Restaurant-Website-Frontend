@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Turkey Breast Sandwich</title>
+    <link rel="stylesheet" href="assets/css/sandwich.css">
+</head>
+
+<body>
+    <div class="menu__container">
+        <div class="menu__content">
+            <img src="assets/img/turkeybreastsandwich.png" alt="Turkey Breast Sandwich" class="menu__img">
+            <h2 class="menu__name">Turkey Breast Sandwich</h2>
+            <p class="menu__detail">Sliced tender turkey breast layered with crisp lettuce, ripe tomatoes, and creamy
+                mayonnaise,
+                served on your choice of freshly baked bread—a delicious and wholesome option for a satisfying meal.</p>
+            <p class="menu__preci">$8.99</p>
+            <a href="menu.html" class="menu__button">Back to Menu</a>
+        </div>
+    </div>
+    <div class="body-background"></div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const menuContainer = document.querySelector('.menu__container');
+            const menuImage = document.querySelector('.menu__img');
+
+            setTimeout(() => {
+                menuContainer.style.opacity = '1';
+                menuContainer.style.transform = 'translateY(0) scale(1)';
+            }, 200);
+
+            setTimeout(() => {
+                menuImage.style.opacity = '1';
+                menuImage.style.transform = 'translateX(0) rotate(0)';
+            }, 700);
+        });
+    </script>
+</body>
+
+</html>

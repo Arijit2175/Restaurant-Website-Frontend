@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Onion Rings</title>
+    <link rel="stylesheet" href="assets/css/sides.css">
+</head>
+
+<body>
+    <div class="menu__container">
+        <div class="menu__content">
+            <img src="assets/img/onionrings.png" alt="Onion Rings" class="menu__img">
+            <h2 class="menu__name">Onion Rings</h2>
+            <p class="menu__detail">Golden and crunchy,
+                perfect for any meal—enhance the experience with a generous topping of melted cheese.</p>
+            <p class="menu__detail">Dips provided: Ketchup, Mustard and Mayonaise
+                No extra Cost</p>
+            <p class="menu__preci">Cheese - $5.99</p>
+            <p class="menu__preci">Non-Cheese - $3.99</p>
+            <a href="menu.html" class="menu__button">Back to Menu</a>
+        </div>
+    </div>
+    <div class="body-background"></div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const menuContainer = document.querySelector('.menu__container');
+            const menuImage = document.querySelector('.menu__img');
+
+            setTimeout(() => {
+                menuContainer.style.opacity = '1';
+                menuContainer.style.transform = 'translateY(0) scale(1)';
+            }, 200);
+
+            setTimeout(() => {
+                menuImage.style.opacity = '1';
+                menuImage.style.transform = 'translateX(0) rotate(0)';
+            }, 700);
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>BLT Sandwich</title>
+    <link rel="stylesheet" href="assets/css/sandwich.css">
+</head>
+
+<body>
+    <div class="menu__container">
+        <div class="menu__content">
+            <img src="assets/img/bltsandwich.png" alt="BLT Sandwich" class="menu__img">
+            <h2 class="menu__name">BLT Sandwich</h2>
+            <p class="menu__detail">Crispy bacon, fresh lettuce, and ripe tomatoes piled high on toasted bread with
+                creamy mayonnaise—
+                a classic combination of flavors and textures that never disappoints.</p>
+            <p class="menu__preci">$7.99</p>
+            <a href="menu.html" class="menu__button">Back to Menu</a>
+        </div>
+    </div>
+    <div class="body-background"></div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const menuContainer = document.querySelector('.menu__container');
+            const menuImage = document.querySelector('.menu__img');
+
+            setTimeout(() => {
+                menuContainer.style.opacity = '1';
+                menuContainer.style.transform = 'translateY(0) scale(1)';
+            }, 200);
+
+            setTimeout(() => {
+                menuImage.style.opacity = '1';
+                menuImage.style.transform = 'translateX(0) rotate(0)';
+            }, 700);
+        });
+    </script>
+</body>
+
+</html>

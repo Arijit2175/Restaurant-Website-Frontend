@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Classic Cheeseburger</title>
+    <link rel="stylesheet" href="assets/css/burger.css">
+</head>
+
+<body>
+    <div class="menu__container">
+        <div class="menu__content">
+            <img src="assets/img/bbqbacon.png" alt="Bacon BBQ Burger" class="menu__img">
+            <h2 class="menu__name">Bacon BBQ Burger</h2>
+            <p class="menu__detail">A succulent beef patty crowned with crispy bacon, melted cheese, tangy BBQ sauce,
+                crisp lettuce, and
+                ripe tomatoes, all nestled within a toasted bun—savor the perfect blend of smoky, savory flavors in
+                every bite.</p>
+            <p class="menu__preci">$12.99</p>
+            <a href="menu.html" class="menu__button">Back to Menu</a>
+        </div>
+    </div>
+    <div class="body-background"></div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const menuContainer = document.querySelector('.menu__container');
+            const menuImage = document.querySelector('.menu__img');
+
+            setTimeout(() => {
+                menuContainer.style.opacity = '1';
+                menuContainer.style.transform = 'translateY(0) scale(1)';
+            }, 200);
+
+            setTimeout(() => {
+                menuImage.style.opacity = '1';
+                menuImage.style.transform = 'translateX(0) rotate(0)';
+            }, 700);
+        });
+    </script>
+</body>
+
+</html>

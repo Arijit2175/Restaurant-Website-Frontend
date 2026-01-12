@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Barbecue Salad</title>
+    <link rel="stylesheet" href="assets/css/salad.css">
+</head>
+
+<body>
+    <div class="menu__container">
+        <div class="menu__content">
+            <img src="assets/img/plate1.png" alt="Barbecue Salad" class="menu__img">
+            <h2 class="menu__name">Barbecue Salad</h2>
+            <p class="menu__detail">Fresh greens topped with tender, smoky BBQ chicken, crisp vegetables,
+                and a drizzle of tangy barbecue sauce—a delightful mix of flavors and textures for a wholesome meal.</p>
+            <p class="menu__preci">$7.50</p>
+            <a href="menu.html" class="menu__button">Back to Menu</a>
+        </div>
+    </div>
+    <div class="body-background"></div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const menuContainer = document.querySelector('.menu__container');
+            const menuImage = document.querySelector('.menu__img');
+
+            setTimeout(() => {
+                menuContainer.style.opacity = '1';
+                menuContainer.style.transform = 'translateY(0) scale(1)';
+            }, 200);
+
+            setTimeout(() => {
+                menuImage.style.opacity = '1';
+                menuImage.style.transform = 'translateX(0) rotate(0)';
+            }, 700);
+        });
+    </script>
+</body>
+
+</html>

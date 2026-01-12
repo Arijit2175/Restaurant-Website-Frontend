@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="assets/css/menustyle.css">
+</head>
+
+<body>
+    <div class="menu-container">
+        <h1>Our Menu</h1>
+        <ul class="menu-list">
+            <li>
+                <h2>Burgers</h2>
+                <ul>
+                    <li class="menu-item"><a href="classic-cheeseburger.html">Classic Cheeseburger - $10.99</a></li>
+                    <li class="menu-item"><a href="bacon-bbq-burger.html">Bacon BBQ Burger - $12.99</a></li>
+                    <li class="menu-item"><a href="mushroom-swiss-burger.html">Mushroom Swiss Burger - $11.99</a></li>
+                </ul>
+            </li>
+            <li>
+                <h2>Sandwiches</h2>
+                <ul>
+                    <li class="menu-item"><a href="grilled-chicken-club.html">Grilled Chicken Club - $9.99</a></li>
+                    <li class="menu-item"><a href="turkey-breast-sandwich.html">Turkey Breast Sandwich - $8.99</a></li>
+                    <li class="menu-item"><a href="blt-sandwich.html">BLT Sandwich - $7.99</a></li>
+                </ul>
+            </li>
+            <li>
+                <h2>Sides</h2>
+                <ul>
+                    <li class="menu-item"><a href="fries.html">Fries(Variable options)</a></li>
+                    <li class="menu-item"><a href="onion-rings.html">Onion Rings(Variable options)</a></li>
+                    <li class="menu-item"><a href="macandcheese.html">Macaroni and Cheese - $6.99</a></li>
+                    <li class="menu-item"><a href="chicken-nuggets.html">Chicken Nuggets(Variable options)</a></li>
+                </ul>
+            </li>
+            <li>
+                <h2>Salads</h2>
+                <ul>
+                    <li class="menu-item"><a href="barbecuesalad.html">Barbecue Salad - $7.50</a></li>
+                    <li class="menu-item"><a href="saladwithfish.html">Salad with Fish - $8.00</a></li>
+                    <li class="menu-item"><a href="spinachsalad.html">Spinach Salad - $6.00</a></li>
+                </ul>
+            </li>
+            <li>
+                <h2>Drinks</h2>
+                <ul>
+                    <li class="menu-item"><a href="softdrinks.html">Soft Drinks - $5.00</a></li>
+                    <li class="menu-item"><a href="pinacolada.html">Pinacolada - $8.00</a></li>
+                    <li class="menu-item"><a href="virginmojito.html">Virgin Mojito - $7.50</a></li>
+                    <li class="menu-item"><a href="icedtea.html">Iced Tea - $6.50</a></li>
+                    <li class="menu-item"><a href="lemonade.html">Lemonade - $6.00</a></li>
+                </ul>
+            </li>
+        </ul>
+        <p><a href="index.html" class="back-button">Back to Home</a></p>
+    </div>
+
+    <div class="body-background"></div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+
+            const menuContainer = document.querySelector('.menu-container');
+            menuContainer.classList.add('animate');
+
+
+            const menuItems = document.querySelectorAll('.menu-list .menu-item');
+
+
+            menuItems.forEach((item, index) => {
+                setTimeout(() => {
+                    item.classList.add('animate');
+                }, 100 * index);
+            });
+        });
+    </script>
+</body>
+
+</html>

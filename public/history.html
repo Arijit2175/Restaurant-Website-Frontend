@@ -1,0 +1,73 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>History</title>
+    <link rel="stylesheet" href="assets/css/history.css">
+</head>
+
+<body>
+    <!-- Back button -->
+    <a href="index.html" class="back-button">Back to Home</a>
+
+    <!-- Main section -->
+    <main class="bd-container">
+        <section class="section">
+            <h2 class="section-title">About Us</h2>
+            <p class="section-subtitle">Learn about how our business came to be on top.</p>
+            <div class="bd-grid">
+                <div class="image-container">
+                    <img src="assets/img/about-us-image.jpg" alt="About Us Image">
+                </div>
+                <div class="text-container">
+                    <h3 class="blog-post__title">Our History</h3>
+                    <p>Olive Grove is a charming restaurant that traces its roots back to the early 1980s,
+                        when it first opened its doors as a family-owned Mediterranean eatery.
+                        Nestled in a quaint location, the restaurant quickly became a local favorite, renowned for its
+                        authentic
+                        Mediterranean cuisine, warm ambiance, and exceptional service.
+                        Over the years, Olive Grove has stayed true to its traditional recipes, using only the freshest
+                        ingredients and finest olive oils,
+                        sourced directly from the Mediterranean region. The menu features a delightful array of dishes,
+                        from savory kebabs and fresh seafood to vibrant salads and homemade baklava, all crafted with a
+                        passion for culinary excellence.
+                        With its cozy atmosphere and dedication to quality,
+                        Olive Grove continues to be a beloved dining destination for both locals and visitors alike.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer section -->
+    <footer class="footer">
+        <div class="bd-container">
+            <p class="footer__copy">2024 Olive Grove. All right reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const section = document.querySelector('.section');
+            const imageContainer = document.querySelector('.image-container');
+            const textContainer = document.querySelector('.text-container');
+
+            setTimeout(() => {
+                section.classList.add('animate');
+            }, 100);
+
+            setTimeout(() => {
+                imageContainer.classList.add('animate');
+            }, 400);
+
+            setTimeout(() => {
+                textContainer.classList.add('animate');
+            }, 600);
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Soft Drinks</title>
+    <link rel="stylesheet" href="assets/css/drink.css">
+</head>
+
+<body>
+    <div class="menu__container">
+        <div class="menu__content">
+            <img src="assets/img/softdrink.png" alt="Soft Drinks" class="menu__img">
+            <h2 class="menu__name">Soft Drinks</h2>
+            <p class="menu__detail">Whether you prefer the crisp bite of cola or the zesty citrus of lemon-lime soda, 
+                our beverages are perfectly chilled and ready to complement your
+                dining experience.</p>
+            <p class="menu__detail">The ones we sell include:</p>
+            <p class="menu__preci">Coca Cola - $5.00</p>
+            <p class="menu__preci">Pepsi - $5.00</p>
+            <p class="menu__preci">Sprite - $5.00</p>
+            <p class="menu__preci">Fanta - $5.00</p>
+            <a href="menu.html" class="menu__button">Back to Menu</a>
+        </div>
+    </div>
+    <div class="body-background"></div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const menuContainer = document.querySelector('.menu__container');
+            const menuImage = document.querySelector('.menu__img');
+
+            setTimeout(() => {
+                menuContainer.style.opacity = '1';
+                menuContainer.style.transform = 'translateY(0) scale(1)';
+            }, 200);
+
+            setTimeout(() => {
+                menuImage.style.opacity = '1';
+                menuImage.style.transform = 'translateX(0) rotate(0)';
+            }, 700);
+        });
+    </script>
+</body>
+
+</html>
