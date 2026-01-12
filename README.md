@@ -65,8 +65,15 @@ Restaurant-Website-Frontend/
 
 - Contact call‑to‑action and footer with quick links
 
-*Preview*:
-[preview]['assets/img/preview.png']
+### Preview
+![Preview](assets/img/preview.png)
+
+---
+
+## 🌐 Demonstration
+This frontend was deployed in vercel, you can check the live version here:
+
+[🔗 View Live Site](https://restaurant-website-frontend-ashen.vercel.app/)
 
 ---
 
