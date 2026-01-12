@@ -38,17 +38,35 @@ An interactive single-page restaurant frontend that showcases a modern dining br
 Restaurant-Website-Frontend/
 ├── public/
 │   ├── (All the html files)
-    ├── assets/
-        ├── css/
-            ├── (All the css files) 
-        ├── img
-            ├── (All the asset images)
-        ├── js
-            ├── script.js
-        ├── scss
-            ├── styles.scss          
+    └── assets/
+        └── css/
+            └── (All the css files) 
+        └── img/
+            └──(All the asset images)
+        └── js/
+            └── script.js
+        └── scss/
+            └── styles.scss          
 └── README.md
 ```
+
+---
+
+## 🖥️ Dashboard Preview
+
+**Key Sections**
+- Hero section with primary CTA buttons (View Specials, View Menu)
+
+- Services grid (dine‑in, fast food, delivery) with icons
+
+- Specials cards linking to individual item detail pages
+
+- App promotion block with store badges and theme‑aware artwork
+
+- Contact call‑to‑action and footer with quick links
+
+*Preview*:
+[preview]['assets/img/preview.png']
 
 ---
 
