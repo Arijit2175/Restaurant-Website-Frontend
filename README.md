@@ -97,3 +97,16 @@ This frontend was deployed in vercel, you can check the live version here:
 
 ---
 
+## 🔗 References
+
+- Boxicons: [https://boxicons.com/](https://boxicons.com/)
+- ScrollReveal: [https://scrollrevealjs.org/](https://scrollrevealjs.org/)
+- Google Fonts – Poppins: [https://fonts.google.com/specimen/Poppins](https://fonts.google.com/specimen/Poppins)
+- MDN Web Docs – HTML: [https://developer.mozilla.org/en-US/docs/Web/HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- MDN Web Docs – CSS: [https://developer.mozilla.org/en-US/docs/Web/CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- MDN Web Docs – JavaScript: [https://developer.mozilla.org/en-US/docs/Web/JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- CSS-Tricks: [https://css-tricks.com/](https://css-tricks.com/)
+- W3Schools – Responsive Design: [https://www.w3schools.com/css/css_rwd_intro.asp](https://www.w3schools.com/css/css_rwd_intro.asp)
+- Can I use (Browser Compatibility): [https://caniuse.com/](https://caniuse.com/)
+
+
